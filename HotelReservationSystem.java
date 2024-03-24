@@ -168,7 +168,7 @@ public class HotelReservationSystem {
 
 		@Override
 		public String toString() {
-			return "Booking ID: " + bookingId + ", Room: " + room.getRoomType() + ", Payment Amount: $" + paymentAmount
+			return "Booking ID: " + bookingId + ", Room: " + room.getRoomType() + ", Payment Amount: Rs." + paymentAmount
 					+ ", Customer Name: " + customerName;
 		}
 	}
